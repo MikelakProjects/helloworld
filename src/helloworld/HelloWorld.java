@@ -2,6 +2,7 @@ package helloworld;
 
 /**
  * Hemos desacoplado el código de la implementación particular, definiéndola en un fichero .properties
+ * Lo siguiente será refactorizar con Spring
  * @author mikelak
  *
  */
