@@ -24,7 +24,7 @@
       </plugin>
     </plugins>
   </build>
-  <!-- Para empezar sólo necesitamos estos dos paquetes -->
+  <!-- Para empezar sólo necesitamos estos dos paquetes. Pero norl: Los trae como subdependencias -->
   <dependencies>
   	<dependency>
   		<groupId>org.springframework</groupId>
