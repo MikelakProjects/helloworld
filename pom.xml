@@ -24,22 +24,12 @@
       </plugin>
     </plugins>
   </build>
-  <!-- Es posible que las únicas clases necesarias para empezar sean las de "core" y las de "beans" -->
+  <!-- Para empezar sólo necesitamos estos dos paquetes -->
   <dependencies>
-  	<dependency>
-  		<groupId>org.springframework</groupId>
-  		<artifactId>spring-beans</artifactId>
-  		<version>4.3.11.RELEASE</version>
-  	</dependency>
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-context</artifactId>
   		<version>4.3.11.RELEASE</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.springframework</groupId>
-  		<artifactId>spring-context-support</artifactId>
-  		<version>4.0.2.RELEASE</version>
   	</dependency>
   	<dependency>
   		<groupId>org.springframework</groupId>
