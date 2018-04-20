@@ -6,6 +6,7 @@ import java.util.Properties;
 /**
  * Con esta clase Factory conseguimos que se carguen las implementaciones que queremos con sólo modificar el fichero
  * .properties.
+ * Al integrar el proyecto en el framework Spring, esta clase ya no es necesaria. 
  * @author mikelak
  *
  */
