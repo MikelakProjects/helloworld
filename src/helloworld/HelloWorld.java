@@ -1,6 +1,6 @@
 package helloworld;
 
-import org.springframework.context.ApplicationContext;
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -13,7 +13,8 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		
-		ApplicationContext ctx = new ClassPathXmlApplicationContext("META-INF/spring/app-context.xml");
+		// Se puede utilizar la interfaz padre en lugar de ApplicationContext
+		BeanFactory ctx = new ClassPathXmlApplicationContext("META-INF/spring/app-context.xml");
 		
 		// getBean es un método "type-safe", que devuelve una instancia del tipo adecuado (el que se le pasa por parámetro)
 		MessageRenderer mr = ctx.getBean("renderer", MessageRenderer.class);
